@@ -19,8 +19,8 @@ const  MovieApp =() =>{
         <BrowserRouter>
             <Header/>
             <Routes>
-                <Route path="/" element={<MovieList/>} />
-                <Route path="/favourite" element={<MovieFavourite />} />
+                <Route path="/imdb-react-redux" element={<MovieList/>} />
+                <Route path="/favourite" element={<MovieFavourite/>} />
                 <Route path="/movie-detail/:movieId" element={<MovieDetail/>}/>
                 {/* <Route path="/add-movie" element={<AddMovie />}/> */}
                 
