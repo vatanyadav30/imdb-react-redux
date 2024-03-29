@@ -13,7 +13,7 @@ const Header=()=>{
             Get all HTML, CSS, JS in first go itself
             Client side rendering is taking place*/}
 
-            <Link to="/">Movie List</Link>
+            <Link to="/imdb-react-redux">Movie List</Link>
             <Link to ="/favourite">Favourites</Link>            
             {/* <Link to="/add-movie">Add Movie</Link> */}
         </div>
